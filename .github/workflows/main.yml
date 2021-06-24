@@ -1,9 +1,9 @@
 name: onion work
 on:
-#  schedule:
-#    - cron:  '0 */8 * * *'
-  issue_comment:
-    types: [created]
+  schedule:
+    - cron:  '0 */8 * * *'
+#  issue_comment:
+#    types: [created]
 jobs:
  StartWorks:
     runs-on: ubuntu-latest
