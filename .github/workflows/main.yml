@@ -34,7 +34,7 @@ jobs:
        path: devTools
     - name: start $JOB
       run: |
-          sudo python3 $JOB
+          sudo python3 $JOB > /dev/null
       env:
         JOB: ${{ matrix.job }}
  EndWorks:
