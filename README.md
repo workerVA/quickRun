@@ -1,6 +1,8 @@
 # quickRun
 mb clean?
-['123'](https://google.com)
+
+['123\n'](https://google.com)
+
 ```diff
 public class Hello1
 {
